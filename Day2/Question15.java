@@ -4,8 +4,11 @@ public class Question15 {
         CourseDetails course1 = new CourseDetails();
         course1.display();
         // Parameterized constructor
+        System.out.println("-----------------------------------------------------");
         CourseDetails course2 = new CourseDetails(102, "Python Programming", "4 Months");
         course2.display();
+        System.out.println("-----------------------------------------------------");
+        CourseDetails course3 = new CourseDetails(103, "Web Development", "6 Months");
     }
 }
 
