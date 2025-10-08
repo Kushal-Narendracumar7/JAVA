@@ -21,9 +21,9 @@ public class Question14{
 		// System.out.println();
 		// q10(5);
 		// System.out.println();
-		// q11(5);
+		q11(5);
 		// System.out.println();
-		q12(5);
+		// q12(5);
 	}
 	
 	public static void q1(int rows){

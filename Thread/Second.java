@@ -4,10 +4,14 @@ import java.lang.Thread;
 public class Second {
     public static void main(String[] args) {
         Thread2 t2 = new Thread2();
-        Thread thread = new Thread(t2);
+        Thread thread = new Thread(t2,"Thread is Started");
         thread.start();
-        System.out.println("Main thread is running...");
-        
+        // try{
+        //     thread.join();                                                                                                                                                                                                                                                                                                       
+        // }catch(Exception e){
+        //     e.printStackTrace();
+        // }
+        System.out.println("Thread Name : "+thread.getName());
     }
 }
 
@@ -15,6 +19,5 @@ public class Second {
 class Thread2 implements Runnable{
     public void run() {
         System.out.println("Thread is running...");
-
     }
 }
