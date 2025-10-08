@@ -1,3 +1,5 @@
+package Thread;
+
 public class DaemonThread extends Thread{
 
     public void run(){
